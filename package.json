@@ -1,0 +1,18 @@
+{
+  "name": "notecompiler",
+  "version": "1.0.0",
+  "description": "lecture-notes app for computer science students",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisProtectRise/NoteCompiler.git"
+  },
+  "author": "Mihai Christian Zecheru",
+  "bugs": {
+    "url": "https://github.com/ChrisProtectRise/NoteCompiler/issues"
+  },
+  "homepage": "https://github.com/ChrisProtectRise/NoteCompiler#readme"
+}
