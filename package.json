@@ -4,7 +4,8 @@
   "description": "lecture-notes app for computer science students",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "npm run build && electron dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ChrisProtectRise/NoteCompiler/issues"
   },
-  "homepage": "https://github.com/ChrisProtectRise/NoteCompiler#readme"
+  "homepage": "https://github.com/ChrisProtectRise/NoteCompiler#readme",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^25.0.6",
+    "electron": "^39.2.7",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }
