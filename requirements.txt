@@ -1,0 +1,5 @@
+ttkbootstrap~=1.20.1
+sounddevice~=0.5.5
+numpy~=2.3.5
+scipy~=1.17.0
+openai-whisper==20250625
